@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bzfdt3t*%nop65=37oz3zxl34xg8!ax*i#1mr9gk#8s6(s3c8!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['company-system-1.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -120,4 +120,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-'crm'
